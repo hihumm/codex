@@ -1,0 +1,23 @@
+.gridA {
+    background: yellow;
+    padding: 10px;
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .item {
+        background: #eee;
+        border: 1px solid #000;
+        text-align: left;
+    }
+
+    .inc1 {
+        grid-column-start: 1;
+        grid-column-end: 5
+    }
+
+    .inc7 {
+        grid-column-start: 3;
+        grid-column-end: 4
+    }
+}
